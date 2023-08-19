@@ -5,7 +5,7 @@ This DT overlay activates I2S3 PCM digital audio  output on [Orange Pi Zero 3](h
 
 Place dtbo file in /boot/dtb/sunxi/overlay .\
 Add line "overlays=i2s3" to /boot/orangepiEnv.txt .\
-Use alsamixer to adjust I2S3 Src  to APBIF_TXDIF2 .\
+Use alsamixer to adjust I2S3 Src  to APBIF_TXDIF2 ( see JPG ) .\
 Check with aplay -l:
 ~~~
 Z3$ aplay -l
