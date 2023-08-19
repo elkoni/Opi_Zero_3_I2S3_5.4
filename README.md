@@ -24,7 +24,7 @@ Connect external digital to analog converter board with I2S format input.\
 Use following pins :\
 
 Pin 25 - GND --> signal GND of DAC board\
-Pin 23 - PH6 --> I2S BCK \ 
+Pin 23 - PH6 --> I2S BCK \
 Pin 21 - PH8 --> I2S DATA \
 Pin 19 - PH7 --> I2S LRCK \
 Pin 2  - 5V  --> to +5V power of DAC board\  
