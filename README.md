@@ -20,7 +20,7 @@ card 3: ahubi2s3 [ahubi2s3], device 0: ahub_plat-snd-soc-dummy-dai snd-soc-dummy
   Subdevices: 1/1
   Subdevice #0: subdevice #0
 ~~~
-Test with sox:
+Test with sox :
 ~~~
  AUDIODEV=hw:3,0 play -V -r 48000 -n -b 16 -c 2 synth sin 440 vol -12dB
 ~~~
