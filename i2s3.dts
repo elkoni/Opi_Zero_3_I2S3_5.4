@@ -1,0 +1,19 @@
+/dts-v1/;
+/plugin/;
+/ {
+	fragment@0 {
+		target-path = "/soc@3000000/ahub3_plat";
+		__overlay__ {
+				status = "okay";
+				pinctrl-0 = <&ahub_daudio3_pins_a>;
+				pinctrl-1 = <&ahub_daudio3_pins_b>;
+				pinctrl-names = "default", "sleep";
+				};
+			};
+	fragment@1 {
+		target-path = "/soc@3000000/ahub3_mach";
+		__overlay__ {
+				status = "okay";
+				};
+			};
+};
