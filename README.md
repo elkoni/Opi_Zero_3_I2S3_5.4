@@ -20,6 +20,18 @@ card 3: ahubi2s3 [ahubi2s3], device 0: ahub_plat-snd-soc-dummy-dai snd-soc-dummy
   Subdevices: 1/1
   Subdevice #0: subdevice #0
 ~~~
+Connect external digital to analog converter board with I2S format input.\
+Use following pins :\
+
+Pin 25 - GND --> signal GND of DAC board\
+Pin 23 - PH6 --> I2S BCK \ 
+Pin 21 - PH8 --> I2S DATA \
+Pin 19 - PH7 --> I2S LRCK \
+Pin 2  - 5V  --> to +5V power of DAC board\  
+Pin 6  - GND --> to GND power of DAC board\
+
+The signal levels are 3.3V .
+
 Test with sox :
 ~~~
  AUDIODEV=hw:3,0 play -V -r 48000 -n -b 16 -c 2 synth sin 440 vol -12dB
