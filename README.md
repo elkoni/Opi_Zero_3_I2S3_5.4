@@ -21,8 +21,7 @@ card 3: ahubi2s3 [ahubi2s3], device 0: ahub_plat-snd-soc-dummy-dai snd-soc-dummy
   Subdevice #0: subdevice #0
 ~~~
 Connect external digital to analog converter board with I2S format input.\
-Use following pins :\
-
+Use following pins : \
 Pin 25 - GND --> signal GND of DAC board\
 Pin 23 - PH6 --> I2S BCK \
 Pin 21 - PH8 --> I2S DATA \
