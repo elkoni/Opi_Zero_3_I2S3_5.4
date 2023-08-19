@@ -35,3 +35,6 @@ Test with sox :
 ~~~
  AUDIODEV=hw:3,0 play -V -r 48000 -n -b 16 -c 2 synth sin 440 vol -12dB
 ~~~
+
+The image used is Orangepizero3_1.0.0_debian_bullseye_server_5.4.125.7z . \
+Should work for other images, based on this kernel.
