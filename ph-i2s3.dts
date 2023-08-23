@@ -1,0 +1,13 @@
+/dts-v1/;
+/plugin/;
+
+&{/soc@3000000/ahub3_plat} {
+	status = "okay";
+	pinctrl-names = "default", "sleep";
+	pinctrl-0 = <&ahub_daudio3_pins_a>, <&ahub_daudio3_pins_b>;
+	pinctrl-1 = <&ahub_daudio3_pins_d>;
+			};
+
+&{/soc@3000000/ahub3_mach} {
+	status = "okay";
+			};
