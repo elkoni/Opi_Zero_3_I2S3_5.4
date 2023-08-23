@@ -38,3 +38,5 @@ Test with sox :
 
 The image used is Orangepizero3_1.0.0_debian_bullseye_server_5.4.125.7z . \
 Should work for other images, based on this kernel.
+-----------
+Updated: ph-i2s3.dts is the same, just another syntax.\
